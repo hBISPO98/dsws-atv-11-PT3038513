@@ -34,14 +34,3 @@ Evolução da aplicação web em Flask focada na persistência de auditoria de e
 
 
 - **Separação de Responsabilidades:** Isolar a rota de listagem de logs (`/emails_enviados`) mantém o código modular e limpo, sem sobrecarregar a página principal de gestão de utilizadores.
-
----
-
-## 👩🏽‍💻 Demonstração
-<div align="center">
-
-| Tabela de Histórico de E-mails Enviados |
-| :---: |
-| <img src="" /> |
-
-</div>
