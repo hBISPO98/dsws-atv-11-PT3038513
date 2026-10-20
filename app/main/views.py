@@ -18,9 +18,10 @@ def index():
             session['known'] = False
             print('FLASKY_ADMIN: ' + str(current_app.config['FLASKY_ADMIN']), flush=True)
             if current_app.config['FLASKY_ADMIN']:
+                print('Enviando mensagem...', flush=True)
                 #send_email(current_app.config['FLASKY_ADMIN'], 'New User', 'mail/new_user', user=user)
                 print('Enviando mensagem...', flush=True)
-                send_simple_message([current_app.config['FLASKY_ADMIN'], "flaskaulasweb@zohomail.com"], 'Novo usuário', form.name.data)
+                send_simple_message([current_app.config['FLASKY_ADMIN'],"b.hiandra@aluno.ifsp.edu.br"], 'Novo usuário', form.name.data)
                 print('Mensagem enviada...', flush=True)
         else:
             session['known'] = True
