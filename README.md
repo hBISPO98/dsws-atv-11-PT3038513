@@ -1,4 +1,4 @@
-# Módulo 1 🧮
+# Módulo 1 
 
 Evolução da aplicação web em Flask utilizando SQLAlchemy para persistência de dados e a API do Mailgun para envio de e-mails automáticos a cada novo utilizador cadastrado. O grande objetivo desta versão foi reorganizar o projeto através de uma arquitetura modular com Blueprints, otimizando a organização e o roteamento da aplicação.
 
