@@ -42,4 +42,4 @@ Evolução da aplicação web em Flask utilizando SQLAlchemy para persistência 
 - **Arquitetura Modular Flexível:** O uso de Blueprints e do padrão *Application Factory* permite que novos módulos (ex.: autenticação, relatórios) sejam adicionados futuramente sem afetar as funcionalidades existentes.
 
 
-**Resiliência na Comunicação Externa:** A substituição de ligações SMTP por requisições HTTP `POST` garante que o envio de notificações funcione sem impedimentos em servidores com restrições de porta (como o PythonAnywhere).
+- **Resiliência na Comunicação Externa:** A substituição de ligações SMTP por requisições HTTP `POST` garante que o envio de notificações funcione sem impedimentos em servidores com restrições de porta (como o PythonAnywhere).
