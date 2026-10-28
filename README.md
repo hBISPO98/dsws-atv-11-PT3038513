@@ -43,3 +43,22 @@ Evolução da aplicação web em Flask utilizando SQLAlchemy para persistência 
 
 
 - **Resiliência na Comunicação Externa:** A substituição de ligações SMTP por requisições HTTP `POST` garante que o envio de notificações funcione sem impedimentos em servidores com restrições de porta (como o PythonAnywhere).
+
+---
+
+## 👩🏽‍💻 Demonstração
+<div align="center">
+
+| Home Principal |
+| :---: |
+| <img src="https://github.com/user-attachments/assets/6ecd87d7-449c-400b-997a-ac332a2bff11" /> |
+
+<br>
+
+| E-mail de Notificação de Novo Usuário Cadastrado |
+| :---: |
+| <img src="https://github.com/user-attachments/assets/2137f40e-5981-47af-b328-172aa9a549c9" /> |
+
+</div>
+
+> 💡 A questão sobre o E-mail cair na caixa de spam foi resolvida nas próximas evoluções da aplicação web.
