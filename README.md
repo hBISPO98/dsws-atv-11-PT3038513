@@ -61,4 +61,6 @@ Evolução da aplicação web em Flask utilizando SQLAlchemy para persistência 
 
 </div>
 
+<br>
+
 > 💡 A questão sobre o E-mail cair na caixa de spam foi resolvida nas próximas evoluções da aplicação web.
